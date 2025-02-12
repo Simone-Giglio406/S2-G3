@@ -168,6 +168,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
     default:
       console.log("eye color not recognizes");
   }
+  console.log("eye color");
 }
 
 /* ESERCIZIO 6
