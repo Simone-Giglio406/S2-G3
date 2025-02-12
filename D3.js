@@ -166,7 +166,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       eye_color.blueGray.push(starWarsCharacters);
       break;
     default:
-      console.log("eye color not recognizes", starwarsCharacters.eye_color);
+      console.log("eye color not recognizes");
   }
 }
 
