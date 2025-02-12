@@ -192,6 +192,24 @@ for (let i = 0; i < starWarsCharacters.mass; i++) {
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
 
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  starWarsCharacters[i].mass;
+}
+
+if (starWarsCharacters.mass < 500) {
+  console.log("Ship is under loaded");
+} else if (starWarsCharacters.mass >= 500 && starWarsCharacters.mass < 700) {
+  console.log("Ship is half loaded");
+} else if (starWarsCharacters.mass >= 700 && starWarsCharacters.mass < 900) {
+  console.log("Warning: over 700");
+} else if (starWarsCharacters.mass >= 900 && starWarsCharacters.mass < 1000) {
+  console.log("Critical: Over 900");
+} else if (starWarsCharacters.mass >= 1000) {
+  console.log("DANGER! OVERLOAD ALERT");
+
+  console.log("mass on ship");
+}
+
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
