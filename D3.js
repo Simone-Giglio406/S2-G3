@@ -122,10 +122,10 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
 
-for (let i = 0; i < starWarsCharacters.gender === "female"; i++) {
-  starWarsCharacters[i].gender;
-
-  console.log("female");
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  if (starWarsCharacters[i].gender === "female")
+    starWarsCharacters.push(starWarsCharacters[i].name);
+  console.log("female characters");
 }
 
 /* ESERCIZIO 4
